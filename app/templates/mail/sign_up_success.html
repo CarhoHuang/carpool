@@ -1,0 +1,9 @@
+{% extends 'mail/base_email.html' %}
+
+{% block email_content %}
+    <div class="text" style="padding: 0 4em; text-align: center;">
+        <h2>注册成功</h2>
+        <p>注册成功，亲爱的<a href="#" class="btn btn-primary">{{ username }}</a> ，恭喜您成为顺手邦的一员啦。</p>
+
+    </div>
+{% endblock %}
